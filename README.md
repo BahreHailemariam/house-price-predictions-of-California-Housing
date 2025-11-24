@@ -187,4 +187,18 @@ python scripts/train_model.py
 
 streamlit run scripts/app.py
 
+📈 Results Summary
+
+Model achieves high accuracy (R² ≈ 0.80–0.88) depending on model
+
+Median income is the highest predictive factor
+
+Engineered features significantly boost model performance
+
+📘 Future Improvements
+
+🔹 Add real estate APIs (Zillow, Redfin)
+🔹 Create time-series forecasting (future price)
+🔹 Deploy as Flask/FastAPI service
+🔹 Add interactive Power BI dashboard
 

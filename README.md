@@ -115,3 +115,16 @@ Median income is the strongest predictor of home value
 Houses close to the coast have higher prices
 
 High population density → price drop (on average)
+
+🤖 Machine Learning Models
+
+Models trained:
+
+Model
+
+| Model                   | Notes                          |
+| ----------------------- | ------------------------------ |
+| Linear Regression       | Baseline model                 |
+| Random Forest Regressor | Best for non-linear patterns   |
+| Gradient Boosting       | Strong predictive performance  |
+| XGBoost (optional)      | Highest accuracy in most cases |

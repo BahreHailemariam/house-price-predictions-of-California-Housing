@@ -26,3 +26,25 @@ A deployable Streamlit application (optional)
 ✔ Build high-accuracy predictive models
 ✔ Present metrics and insights for decision-making
 
+🧱 Dataset
+
+You can use either:
+
+Option A — scikit-learn built-in dataset
+
+from sklearn.datasets import fetch_california_housing
+
+Option B — CSV Dataset (Kaggle)
+Columns typically include:
+
+| Column             | Description                |
+| ------------------ | -------------------------- |
+| longitude          | Geographic coordinate      |
+| latitude           | Geographic coordinate      |
+| housing_median_age | Median age of homes        |
+| total_rooms        | Total rooms in block       |
+| total_bedrooms     | Total bedrooms             |
+| population         | Population count           |
+| households         | Household count            |
+| median_income      | Median neighborhood income |
+| median_house_value | Target variable            |

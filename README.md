@@ -134,3 +134,18 @@ Example training code:
 from sklearn.ensemble import RandomForestRegressor
 model = RandomForestRegressor(n_estimators=300, random_state=42)
 model.fit(X_train, y_train)
+
+📊 Model Evaluation
+
+Metrics reported:
+
+MAE — Mean Absolute Error
+
+RMSE — Root Mean Squared Error
+
+R² Score
+
+Example:
+
+from sklearn.metrics import mean_squared_error, r2_score
+rmse = mean_squared_error(y_test, y_pred, squared=False)

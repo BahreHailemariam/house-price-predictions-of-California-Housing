@@ -48,3 +48,49 @@ Columns typically include:
 | households         | Household count            |
 | median_income      | Median neighborhood income |
 | median_house_value | Target variable            |
+
+🏗 Project Structure
+
+house-price-predictions-of-California-Housing/
+│
+├── data/
+│   └── california_housing.csv
+│
+├── notebooks/
+│   └── EDA.ipynb
+│
+├── scripts/
+│   ├── load_data.py
+│   ├── clean_data.py
+│   ├── feature_engineering.py
+│   ├── train_model.py
+│   └── app.py
+│
+├── models/
+│   └── house_price_model.pkl
+│
+├── reports/
+│   └── EDA_Report.md
+│
+├── README.md
+└── requirements.txt
+
+🧼 Data Preprocessing
+
+Key cleaning steps include:
+
+Handling missing bedrooms count
+
+Adding engineered features:
+
+rooms_per_household
+
+bedrooms_per_room
+
+population_per_household
+
+Scaling numerical features
+
+Encoding categorical attributes (if added)
+
+Example:

@@ -98,3 +98,20 @@ Example:
 df["rooms_per_household"] = df["total_rooms"] / df["households"]
 df["bedrooms_per_room"] = df["total_bedrooms"] / df["total_rooms"]
 df["population_per_household"] = df["population"] / df["households"]
+
+🔍 Exploratory Data Analysis
+
+Visuals used:
+
+📌 Correlation heatmaps
+📌 Income vs. House Value regression plots
+📌 Geospatial scatter maps (lat/long → price)
+📌 Histogram distribution of all variables
+
+Main insights include:
+
+Median income is the strongest predictor of home value
+
+Houses close to the coast have higher prices
+
+High population density → price drop (on average)

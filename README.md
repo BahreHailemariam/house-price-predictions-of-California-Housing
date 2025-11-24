@@ -173,4 +173,18 @@ git clone https://github.com/yourusername/house-price-predictions-of-California-
 2️⃣ Install dependencies
 pip install -r requirements.txt
 
+🚀 How to Use
+
+Run full pipeline:
+
+python scripts/load_data.py
+python scripts/clean_data.py
+python scripts/feature_engineering.py
+python scripts/train_model.py
+
+
+(Optional) Launch dashboard:
+
+streamlit run scripts/app.py
+
 

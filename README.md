@@ -149,3 +149,19 @@ Example:
 
 from sklearn.metrics import mean_squared_error, r2_score
 rmse = mean_squared_error(y_test, y_pred, squared=False)
+
+🌐 (Optional) Streamlit App
+
+You can deploy a UI to make predictions:
+
+Features:
+
+User inputs median income, rooms, population
+
+Predicts house price instantly
+
+Visual explanation with SHAP plots (optional)
+
+Run app:
+
+streamlit run app.py

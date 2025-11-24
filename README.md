@@ -128,3 +128,9 @@ Model
 | Random Forest Regressor | Best for non-linear patterns   |
 | Gradient Boosting       | Strong predictive performance  |
 | XGBoost (optional)      | Highest accuracy in most cases |
+
+Example training code:
+
+from sklearn.ensemble import RandomForestRegressor
+model = RandomForestRegressor(n_estimators=300, random_state=42)
+model.fit(X_train, y_train)

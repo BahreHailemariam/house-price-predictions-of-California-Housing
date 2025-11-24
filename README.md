@@ -165,3 +165,12 @@ Visual explanation with SHAP plots (optional)
 Run app:
 
 streamlit run app.py
+
+📦 Installation
+1️⃣ Clone repository
+git clone https://github.com/yourusername/house-price-predictions-of-California-Housing.git
+
+2️⃣ Install dependencies
+pip install -r requirements.txt
+
+

@@ -26,7 +26,7 @@ Using Python, scikit-learn, statistical analysis, and feature engineering, the p
 ✔ Build high-accuracy predictive models<br />
 ✔ Present metrics and insights for decision-making
 
-🧱 Dataset
+## 🧱 Dataset
 
 You can use either:
 
@@ -49,8 +49,8 @@ Columns typically include:
 | median_income      | Median neighborhood income |
 | median_house_value | Target variable            |
 
-🏗 Project Structure
-
+## 🏗 Project Structure
+```
 house-price-predictions-of-California-Housing/
 │
 ├── data/
@@ -74,8 +74,8 @@ house-price-predictions-of-California-Housing/
 │
 ├── README.md
 └── requirements.txt
-
-🧼 Data Preprocessing
+```
+## 🧼 Data Preprocessing
 
 Key cleaning steps include:
 

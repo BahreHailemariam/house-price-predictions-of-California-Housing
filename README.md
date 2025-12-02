@@ -94,27 +94,27 @@ Scaling numerical features
 Encoding categorical attributes (if added)
 
 Example:
-
+```
 df["rooms_per_household"] = df["total_rooms"] / df["households"]
 df["bedrooms_per_room"] = df["total_bedrooms"] / df["total_rooms"]
 df["population_per_household"] = df["population"] / df["households"]
+```
+## 🔍 Exploratory Data Analysis
 
-🔍 Exploratory Data Analysis
+Visuals used:<br />
 
-Visuals used:
-
-📌 Correlation heatmaps
-📌 Income vs. House Value regression plots
-📌 Geospatial scatter maps (lat/long → price)
-📌 Histogram distribution of all variables
+📌 Correlation heatmaps<br />
+📌 Income vs. House Value regression plots<br />
+📌 Geospatial scatter maps (lat/long → price)<br />
+📌 Histogram distribution of all variables<br />
 
 Main insights include:
 
-Median income is the strongest predictor of home value
+- Median income is the strongest predictor of home value
 
-Houses close to the coast have higher prices
+- Houses close to the coast have higher prices
 
-High population density → price drop (on average)
+- High population density → price drop (on average)
 
 🤖 Machine Learning Models
 

@@ -116,7 +116,7 @@ Main insights include:
 
 - High population density → price drop (on average)
 
-🤖 Machine Learning Models
+## 🤖 Machine Learning Models
 
 Models trained:
 

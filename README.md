@@ -79,19 +79,19 @@ house-price-predictions-of-California-Housing/
 
 Key cleaning steps include:
 
-Handling missing bedrooms count
+- Handling missing bedrooms count
 
-Adding engineered features:
+- Adding engineered features:
 
-rooms_per_household
+- rooms_per_household
 
-bedrooms_per_room
+- bedrooms_per_room
 
-population_per_household
+- population_per_household
 
-Scaling numerical features
+- Scaling numerical features
 
-Encoding categorical attributes (if added)
+- Encoding categorical attributes (if added)
 
 Example:
 ```
@@ -130,12 +130,12 @@ Model
 | XGBoost (optional)      | Highest accuracy in most cases |
 
 Example training code:
-
+```
 from sklearn.ensemble import RandomForestRegressor
 model = RandomForestRegressor(n_estimators=300, random_state=42)
 model.fit(X_train, y_train)
-
-📊 Model Evaluation
+```
+## 📊 Model Evaluation
 
 Metrics reported:
 

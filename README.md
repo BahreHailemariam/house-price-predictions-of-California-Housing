@@ -139,18 +139,18 @@ model.fit(X_train, y_train)
 
 Metrics reported:
 
-MAE — Mean Absolute Error
+- MAE — Mean Absolute Error
 
-RMSE — Root Mean Squared Error
+- RMSE — Root Mean Squared Error
 
-R² Score
+- R² Score
 
 Example:
-
+```
 from sklearn.metrics import mean_squared_error, r2_score
 rmse = mean_squared_error(y_test, y_pred, squared=False)
-
-🌐 (Optional) Streamlit App
+```
+## 🌐 (Optional) Streamlit App
 
 You can deploy a UI to make predictions:
 
@@ -166,28 +166,28 @@ Run app:
 
 streamlit run app.py
 
-📦 Installation
-1️⃣ Clone repository
+## 📦 Installation
+**1️⃣ Clone repository**
 git clone https://github.com/yourusername/house-price-predictions-of-California-Housing.git
 
-2️⃣ Install dependencies
+**2️⃣ Install dependencies**
 pip install -r requirements.txt
 
-🚀 How to Use
+## 🚀 How to Use
 
 Run full pipeline:
-
+```
 python scripts/load_data.py
 python scripts/clean_data.py
 python scripts/feature_engineering.py
 python scripts/train_model.py
-
+```
 
 (Optional) Launch dashboard:
 
 streamlit run scripts/app.py
 
-📈 Results Summary
+## 📈 Results Summary
 
 Model achieves high accuracy (R² ≈ 0.80–0.88) depending on model
 

@@ -18,12 +18,12 @@ Using Python, scikit-learn, statistical analysis, and feature engineering, the p
 
 - A deployable Streamlit application (optional)
 
-🎯 Objectives
+## 🎯 Objectives
 
-✔ Understand factors that influence California housing values
-✔ Create an end-to-end ML pipeline
-✔ Perform in-depth EDA and data visualization
-✔ Build high-accuracy predictive models
+✔ Understand factors that influence California housing values <br />
+✔ Create an end-to-end ML pipeline<br />
+✔ Perform in-depth EDA and data visualization<br />
+✔ Build high-accuracy predictive models<br />
 ✔ Present metrics and insights for decision-making
 
 🧱 Dataset

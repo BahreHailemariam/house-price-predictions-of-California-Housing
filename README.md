@@ -156,16 +156,16 @@ You can deploy a UI to make predictions:
 
 Features:
 
-User inputs median income, rooms, population
+- User inputs median income, rooms, population
 
-Predicts house price instantly
+- Predicts house price instantly
 
-Visual explanation with SHAP plots (optional)
+- Visual explanation with SHAP plots (optional)
 
 Run app:
-
+```
 streamlit run app.py
-
+```
 ## 📦 Installation
 **1️⃣ Clone repository**
 git clone https://github.com/yourusername/house-price-predictions-of-California-Housing.git
@@ -184,9 +184,9 @@ python scripts/train_model.py
 ```
 
 (Optional) Launch dashboard:
-
+```
 streamlit run scripts/app.py
-
+```
 ## 📈 Results Summary
 
 Model achieves high accuracy (R² ≈ 0.80–0.88) depending on model
@@ -195,10 +195,10 @@ Median income is the highest predictive factor
 
 Engineered features significantly boost model performance
 
-📘 Future Improvements
+## 📘 Future Improvements
 
-🔹 Add real estate APIs (Zillow, Redfin)
-🔹 Create time-series forecasting (future price)
-🔹 Deploy as Flask/FastAPI service
+🔹 Add real estate APIs (Zillow, Redfin)<br />
+🔹 Create time-series forecasting (future price)<br />
+🔹 Deploy as Flask/FastAPI service<br />
 🔹 Add interactive Power BI dashboard
 
